@@ -1,0 +1,41 @@
+<div>
+    <link rel="stylesheet" href="crop.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/croppie.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://api.backendless.com/sdk/js/latest/backendless.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $( "#hidden" ).hide();
+        });
+    </script>
+
+    <div class="container cont">
+        <div class="demo-wrap upload-demo">
+            <div  class="grid">
+                <div id="hiddenDiv">
+                    <img id="myImage"  src="">
+                    <canvas id="myCanvas"></canvas>
+                </div>
+                <div id="image">
+                    <div class="upload-msg">
+                        <a class="btn file-btn">
+                            <img src="lib/icon-circle_24.png">
+                            <input type="file" id="upload" value="Choose a file" />
+                        </a>
+                        <p id="browseMess">Browse your foto</p>
+                    </div>
+                    <div id="upload-demo" class="demo"></div>
+                </div>
+                <div class="actions">
+                    <a id="hidden" class="btn file-btn ">
+                        <span>Browse</span>
+                        <input type="file" id="change" value="Choose a file" />
+                    </a>
+                    <button class="upload-result">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/croppie.js"></script>
+    <script src="crop.js"></script>
+</div>

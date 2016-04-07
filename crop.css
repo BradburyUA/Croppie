@@ -1,0 +1,79 @@
+body .cont{
+    background-color: #189094;
+    width: 600px;
+    padding: 0px;
+
+}
+#image{
+    width: 600px;
+}
+.cont .upload-demo{
+    height: 415px;
+    padding:  0px;
+}
+
+#image .demo .cr-slider-wrap{
+    margin-top: 20px;
+    height: 15px;
+}
+
+#image .demo{
+    padding: 20px 0px 0px 0px;
+}
+
+#image .upload-msg{
+    margin: 20px 0px 0px 150px;
+    padding: 0px 0px 0px 0px;
+    border: solid 3px #555555;
+    width: 300px;
+    height: 300px;
+}
+.upload-msg>p{
+    padding-top: 5px;
+    margin: 0px;
+}
+
+#browseMess{
+    position: absolute;
+    top: 352px;
+    left: 218px;
+    padding: 0px;
+    color: white;
+}
+
+.upload-msg .btn{
+    border: none;
+    padding: 0px;
+}
+
+.btn>p{
+    margin: 0px;
+}
+.file-btn>img{
+    margin-top: 22px;
+}
+
+.actions{
+    position: absolute;
+    bottom: 10px;
+    width: 600px;
+    top: 352px;
+
+}
+.actions .upload-result{
+    margin-right: 0px;
+    width: 80px;
+    position: absolute;
+    left: 310px;
+}
+.grid .actions >a {
+    width: 80px;
+    left: 210px;
+}
+
+#hiddenDiv{
+    z-index: 5;
+    height: 300px;
+    width: 600px;
+    display: none;
+}
